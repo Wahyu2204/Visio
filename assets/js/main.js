@@ -174,3 +174,24 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// Function to show the success popup
+function showSuccessPopup(event) {
+  event.preventDefault();
+  
+  // Show the success popup
+  const popup = document.getElementById("success-popup");
+  popup.style.display = "flex";
+
+  // Close the popup after 3 seconds
+  setTimeout(function() {
+    popup.style.display = "none";
+  }, 3000);
+
+  // Close the popup when clicking anywhere outside of the popup content
+  window.addEventListener('click', function(event) {
+    if (!popup.contains(event.target)) {
+      popup.style.display = "none";
+    }
+  });
+}
