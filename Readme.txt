@@ -5,4 +5,5 @@ Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-templ
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
 
-<img src="assets/img/Visio.png" alt="Contoh Gambar" width="300">
+![Alt Text](assets/img/Visio.png)
+<img src="" alt="Contoh Gambar" width="300">
