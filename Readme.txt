@@ -1,8 +1,4 @@
-Thanks for downloading this template!
-
-Template Name: Yummy
-Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+<p align="center"><a href="https://laravel.com" target="_blank">
+<img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 ![Alt Text](https://raw.githubusercontent.com/username/repository/branch/assets/img/Visio.png)
