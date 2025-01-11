@@ -266,7 +266,7 @@ h6 {
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
   background: linear-gradient(to left, #1230AE, #6C48C5, #C68FE6);
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1) ;
 }
 
 @media (max-width: 1200px) {
@@ -836,6 +836,7 @@ section,
   color: var(--contrast-color);
   background: linear-gradient(to left, #1230AE, #6C48C5, #C68FE6);;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
 }
 
 .hero .btn-watch-video {
@@ -955,7 +956,7 @@ section,
 }
 
 .image-top-adjust {
-  margin-top: -50px; /* Atur sesuai kebutuhan */
+  margin-top: -20px; /* Atur sesuai kebutuhan */
 }
 
 /*--------------------------------------------------------------
