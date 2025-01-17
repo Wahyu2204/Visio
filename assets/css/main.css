@@ -251,8 +251,8 @@ h6 {
   font-size: 36px;
 }
 
-.header .btn-getstarted,
-.header .btn-getstarted:focus {
+.header .btn-primary,
+.header .btn-primary:focus {
   color: var(--contrast-color);
   background: linear-gradient(to right, #1230AE, #6C48C5, #C68FE6);;
   font-size: 14px;
@@ -262,8 +262,8 @@ h6 {
   transition: 0.3s;
 }
 
-.header .btn-getstarted:hover,
-.header .btn-getstarted:focus:hover {
+.header .btn-primary:hover,
+.header .btn-primary:focus:hover {
   color: var(--contrast-color);
   background: linear-gradient(to left, #1230AE, #6C48C5, #C68FE6);
   transform: scale(1.1) ;
@@ -274,7 +274,7 @@ h6 {
     order: 1;
   }
 
-  .header .btn-getstarted {
+  .header .btn-primary {
     order: 2;
     margin: 0 15px 0 0;
     padding: 6px 20px;
@@ -819,7 +819,7 @@ section,
   font-weight: 400;
 }
 
-.hero .btn-get-started {
+.btn-primary {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-weight: 400;
@@ -832,7 +832,7 @@ section,
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
-.hero .btn-get-started:hover {
+.btn-primary:hover {
   color: var(--contrast-color);
   background: linear-gradient(to left, #1230AE, #6C48C5, #C68FE6);;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
@@ -879,7 +879,7 @@ section,
     margin-bottom: 30px;
   }
 
-  .hero .btn-get-started,
+  .btn-primary,
   .hero .btn-watch-video {
     font-size: 13px;
   }
