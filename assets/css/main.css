@@ -1819,21 +1819,7 @@ section,
 }
 
 .menu-img {
-  max-width: 50%; /* Memastikan gambar responsif */
+  max-width: 100%; /* Memastikan gambar responsif */
   height: auto;
-}
-
-.head-price {
-  margin-top: -130px;
-  /* margin-bottom: -100px; */
-}
-
-.half-body-price {
-  margin-top: -55px;
-  /* margin-bottom: -100px; */
-}
-
-.full-body-price {
-  margin-top: 15px;
-  /* margin-bottom: -50px; */
+  /* margin-top: -30px; */
 }

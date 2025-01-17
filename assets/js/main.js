@@ -195,3 +195,23 @@ function showSuccessPopup(event) {
     }
   });
 }
+
+document.querySelector("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const form = e.target;
+
+  fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+      headers: { Accept: "application/json" },
+  })
+      .then((response) => {
+          if (response.ok) {
+              alert("Message sent successfully!");
+              form.reset();
+          } else {
+              alert("Failed to send the message. Please try again.");
+          }
+      })
+      .catch(() => alert("An error occurred. Please try again."));
+});
