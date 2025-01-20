@@ -1814,7 +1814,7 @@ section,
   justify-content: center; /* Memusatkan secara vertikal */
   align-items: center; /* Memusatkan secara horizontal */
   text-align: center; /* Memusatkan teks */
-  min-height: 100vh; /* Membuat kontainer setinggi layar */
+  min-height: 50vh; /* Membuat kontainer setinggi layar */
   
 }
 
@@ -1839,3 +1839,4 @@ section,
 .modal.fadeIn {
   animation: fadeInModal 0.5s ease-out;
 }
+
