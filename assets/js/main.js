@@ -215,3 +215,22 @@ document.querySelector("form").addEventListener("submit", function (e) {
       })
       .catch(() => alert("An error occurred. Please try again."));
 });
+
+// assets/js/artikel.js
+
+function showMore() {
+  // Menampilkan modal dengan animasi
+  const modal = new bootstrap.Modal(document.getElementById('modalArtikel'));
+  const modalElement = document.getElementById('modalArtikel');
+  
+  // Tambahkan kelas animasi
+  modalElement.classList.add('fadeIn');
+  
+  // Tampilkan modal
+  modal.show();
+  
+  // Hapus kelas animasi setelah animasi selesai (0.5 detik)
+  setTimeout(function() {
+    modalElement.classList.remove('fadeIn');
+  }, 500);
+}
